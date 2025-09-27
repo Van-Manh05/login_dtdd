@@ -9,18 +9,18 @@
     tools:context=".DangKy" > <!-- Đảm bảo context đúng tên class (DangKy) -->
 
     <!-- Tiêu đề Đăng ký -->
-<TextView
-android:id="@+id/textView"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_marginTop="144dp"
-android:text="ĐĂNG KÝ TÀI KHOẢN"
-android:textColor="@color/white"
-android:textSize="22sp"
-android:textStyle="bold"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent" /> <!-- Sửa layout_constraintHorizontal_bias và thêm constraint Top -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> <!-- Sửa layout_constraintHorizontal_bias và thêm constraint Top -->
 
     <!-- Ô nhập Tên đăng nhập -->
 <EditText
